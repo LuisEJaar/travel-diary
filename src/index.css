@@ -1,0 +1,96 @@
+
+* {
+  font-family: 'Inter';
+}
+
+/* Header */
+nav {
+  background-color: #F55A5A;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: medium;
+  color: #FFFFFF;
+  user-select: none;
+}
+
+nav span {
+  margin-left: 1rem;
+}
+
+/*Page Layout*/
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Individual Card */
+
+article {
+  display: flex;
+  margin-bottom: 2.3rem;
+  max-width: 33.6rem;
+}
+
+/* Image */
+
+article img {
+  width: 8.9rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 0.3rem;
+}
+
+.imageContainer {
+  margin-right: 1rem;
+}
+
+/* Text */
+
+.locationIcon {
+  color: #F55A5A;
+  margin-right: 0.5rem;
+}
+
+.textContainer {
+  padding: 0.5rem;
+  color: #2B283A;
+}
+
+.visited, .date {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.country, a, .date , .locationIcon {
+  font-size: 0.85rem;
+}
+
+a {
+  color: #918E9B;
+}
+
+.country {
+  margin-bottom: 2.14rem;
+  letter-spacing: 0.17em;
+  font-style: normal;
+  line-height: 0.85rem;
+  margin-right: 0.71rem;
+}
+
+.visited {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.date {
+  margin-bottom: 0.71rem;
+}
+
+.description {
+  line-height: 1.3rem;
+}
